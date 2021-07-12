@@ -8,7 +8,7 @@ body{
     background-color: lightseagreen;
     padding: 2%;
 }
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     
@@ -31,8 +31,13 @@ body{
    
     text-decoration: none;
     margin: 19px;
-    color: blue;
+    color: white;
     padding: 20px;
+   
+}
+.navbar a:hover{
+    color: mediumaquamarine;
+    background-color: olive;
 }
 .head-img{
     width: 3%;
@@ -187,6 +192,11 @@ hr{
     .courses{
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+footer{
+    text-align: center;
+    background-color: midnightblue;
 }
 
 
